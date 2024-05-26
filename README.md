@@ -23,7 +23,7 @@
 
 - We have selected 14 features that affect the bike demand
 - The corresponding Linear regression equation is
-  (0.52) _ temp + (0.26) _ yr + (0.13) _ sep + (0.12) _ winter + (0.11) _ summer + (0.06) _ oct + (0.05) _ workingday + (0.05) _ aug + (0.04) _ mon + (-0.04) _ jan + (-0.04) _ wed + (-0.09) _ misty + (-0.15) _ windspeed + (-0.27) _ lightrain + 0.1
+  (0.52) _ temp + (0.26) * yr + (0.13) * sep + (0.12) * winter + (0.11) * summer + (0.06) * oct + (0.05) * workingday + (0.05) * aug + (0.04) * mon + (-0.04) * jan + (-0.04) * wed + (-0.09) * misty + (-0.15) * windspeed + (-0.27) * lightrain + 0.1
 - The temperature of the day affect the most
 - If there's light rain or if the windspeed is high, it reduces the demand.
 
